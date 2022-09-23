@@ -88,4 +88,18 @@ O `Android Studio` deve executar algumas tasks do *Gradle* para configurar o pro
 
 >![image](https://user-images.githubusercontent.com/100818355/192025845-cab4dfac-63f9-4af6-bc15-5d11d32e1f55.png)
 
+* ### Depois eu estilizei com alguns elementos de Bootstrap e DataTable.
+
+>![image](https://user-images.githubusercontent.com/100818355/192057964-7b540f74-d17f-422d-956c-91aee6c2000f.png)
+
+* ### Próximo trabalho foi criar um novo arquivo com os dados de LOGIN.
+
+>![image](https://user-images.githubusercontent.com/100818355/192058459-220a4354-ea1b-48f3-ab66-2cfabcea8287.png)
+
+* ### Por último foi feito um botão para cadastro de usuários à plataforma.
+
+>![image](https://user-images.githubusercontent.com/100818355/192058594-250d0765-49c6-4350-95d5-e76a751218d1.png)
+>![image](https://user-images.githubusercontent.com/100818355/192058618-e4579fa5-53ca-486c-9eca-c01a842f2941.png)
+
+
 
