@@ -80,11 +80,11 @@ O `Android Studio` deve executar algumas tasks do *Gradle* para configurar o pro
 
 
 ### ✅ O que fiz durante o teste
-* #### Primeiro realizei o consumo da API de forma correta, com os dados solicitados no teste. (commit "consumo da api")
+* #### Primeiro realizei o consumo da API de forma correta.
 
 >![image](https://user-images.githubusercontent.com/100818355/192025636-2e16a5ce-0342-4cea-85af-ccdd3dcf3940.png)
 
-* #### Depois disso fiz a estilização parcial, usando bordas simples. (commit "estilização simples na tabela")
+* #### Próximo passo adicionei uma borda simples, só para ficar mais organizado.
 
 >![image](https://user-images.githubusercontent.com/100818355/192025845-cab4dfac-63f9-4af6-bc15-5d11d32e1f55.png)
 
