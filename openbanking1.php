@@ -14,6 +14,14 @@ $response = json_decode($response, 1);
 <head>
     <title> Dados OpenBanking </title>
 </head>
+
+<!-- Estilização simples somente com borda para separar as colunas e campos -->
+<style>
+    thead, tr, th, td {
+        border: 2px solid grey;
+    }
+</style>
+
 <body>
     <table style="width:100%">
         <thead>
