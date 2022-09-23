@@ -3,7 +3,9 @@
 
 ### Tópicos 
 
-- [Descrição do projeto](#descrição-do-projeto)
+- [Motivação](#motivação)
+
+- [Objetivo](#objetivo)
 
 - [Funcionalidades](#funcionalidades)
 
@@ -15,25 +17,29 @@
 
 - [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
 
-## Descrição do projeto 
+## Motivação
 
 <p align="justify">
- Projeto em desenvolvimento para disciplina Instrumentação Biomédica II do curso de Engenharia Biomédica. O GlicoCare é um sistema de telemonitoramento domiciliar para a atenção especializada de pessoas acometidas por diabetes mellitus.
+ O Open Banking ou Sistema Financeiro Aberto é uma iniciativa do Banco Central do Brasil que tem como principais objetivos trazer inovação ao sistema financeiro, promover a concorrência, e melhorar a oferta de produtos para o consumidor. Para que isso seja possível, é necessário que as instituições do sistema financeiro participantes do Open Banking adequem suas plataformas e aplicações aos padrões definidos.
 
-O sistema permitirá o monitoramento diário, contínuo e remoto do nível de glicose no sangue (glicemia), possibilitando que familiares, cuidadores, profissionais da saúde ou o próprio paciente acompanhem o estado clínico do mesmo.
-
-![Descrição do projeto GlicoCare, onde se tem um paciente medindo glicose com um glicosímetro, conectado via Bluetooth ao aplicativo que o profissional da saúde tem acesso.](https://user-images.githubusercontent.com/37356058/132422764-5a4e5300-7b04-4411-9126-387a445bc627.png)
+![Descrição do projeto OpenBanking, Banco aberto, ou sistema bancário aberto ou partilhamento de dados bancários pessoais, é um termo da área de serviços financeiros, que é parte da tecnologia financeira, relativo a um conjunto de regras sobre o uso e compartilhamento de dados e informações financeiras entre instituições.](https://www.bcb.gov.br/content/estabilidadefinanceira/openbanking_imgs/2_info_beneficios_open_banking_br_0036_2021.jpg)
 </p>
+
+## Objetivo
+
+<p align="justify">
+Para que uma aplicação de uma instituição participante esteja efetivamente integrada no ecossistema de Open Banking, é necessário que ela seja capaz de localizar e fazer fluxos de negócio com plataformas e aplicações de outras instituições participantes. Portanto, essa aplicação deve ser capaz de obter informações sobre todas as instituições participantes do Open Banking e manter essas informações atualizadas.
+</p>
+
 
 ## Funcionalidades
 
-:heavy_check_mark: `Funcionalidade 1:` Realizar cadastro dos usuários, podendo ser paciente ou profissional de saúde.
+:heavy_check_mark: `Funcionalidade 1:` Integração com ecossistema Open Banking.
 
-:heavy_check_mark: `Funcionalidade 2:` Armazenar dados do usuário, como glicemia, atividade física, alimentação, medicação, administração de insulina e peso no banco de dados na Cloud Firestore.
+:heavy_check_mark: `Funcionalidade 2:` Visualização de informações de outras instituições participantes do Open Banking.
 
-:heavy_check_mark: `Funcionalidade 3:` Plotar gráfico com histórico dos níveis glicêmicos do paciente.
+:heavy_check_mark: `Funcionalidade 3:` Cadastro de outros usuários à plataforma.
 
-:heavy_check_mark: `Funcionalidade 4:` Chat com entre o paciente e profissional da saúde.
 
 ## Aplicação
 
@@ -47,15 +53,15 @@ O sistema permitirá o monitoramento diário, contínuo e remoto do nível de gl
 
 ## Ferramentas utilizadas
 
-<a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-
-<a href="https://developer.android.com/studio" target="_blank"> <img src="https://developer.android.com/images/logos/android.svg" alt="androidStudio" width="40" height="40"/> </a> <a href="https://firebase.google.com/?hl=pt" target="_blank"> <img src="https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_96dp.png" alt="firebase" width="40" height="40"/> </a>
+<a href="https://www.php.net/manual/pt_BR/" target="_blank"> <img src="https://www.php.net/images/meta-image.png" alt="php" width="75" height="70"/> </a>
+<a href="https://www.apachefriends.org/pt_br/index.html" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/xampp.svg" alt="xampp" width="75" height="70"/> </a>
+<a href="https://www.mysql.com/" target="_blank"> <img src="https://ih1.redbubble.net/image.1949472564.0811/pp,840x830-pad,1000x1000,f8f8f8.jpg" alt="mysql" width="75" height="70"/> </a>
 
 ###
 
 ## Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto](https://github.com/camilafernanda/GlicoCare) ou [baixá-lo](https://github.com/camilafernanda/GlicoCare/archive/refs/heads/main.zip).
+Você pode [acessar o código fonte do projeto](https://github.com/briangonc/OpenBanking) ou [baixá-lo](https://github.com/briangonc/OpenBanking/archive/refs/heads/main.zip).
 
 ## Abrir e rodar o projeto
 
