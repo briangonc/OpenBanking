@@ -9,8 +9,6 @@
 
 - [Funcionalidades](#funcionalidades)
 
-- [Aplicação](#aplicação)
-
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
 
 - [Acesso ao projeto](#acesso-ao-projeto)
@@ -41,16 +39,6 @@ Para que uma aplicação de uma instituição participante esteja efetivamente i
 :heavy_check_mark: `Funcionalidade 3:` Cadastro de outros usuários à plataforma.
 
 
-## Aplicação
-
-<div align="center">
-
-![Android Emulator](https://user-images.githubusercontent.com/37356058/135944390-ec96d4ec-ee43-4db9-882f-89be66aad23a.gif)
-
-  </div>
-
-###
-
 ## Ferramentas utilizadas
 
 <a href="https://www.php.net/manual/pt_BR/" target="_blank"> <img src="https://www.php.net/images/meta-image.png" alt="php" width="75" height="70"/> </a>
@@ -62,19 +50,6 @@ Para que uma aplicação de uma instituição participante esteja efetivamente i
 ## Acesso ao projeto
 
 Você pode [acessar o código fonte do projeto](https://github.com/briangonc/OpenBanking) ou [baixá-lo](https://github.com/briangonc/OpenBanking/archive/refs/heads/main.zip).
-
-## Abrir e rodar o projeto
-
-Após baixar o projeto, você pode abrir com o `Android Studio`. Para isso, na tela de launcher clique em:
-
-- `Open an Existing Project` (ou alguma opção similar);
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
-- Por fim clique em `OK`.
-
-O `Android Studio` deve executar algumas tasks do *Gradle* para configurar o projeto, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆 
-
-
-
 
 
 
