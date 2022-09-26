@@ -33,8 +33,8 @@ include 'Acoes.php';
                     </div>
 
                     <div class="form-label-group">
-                        <label for="email">Usuário</label>
-                        <input type="text" name="user" class="form-control" placeholder="Digite o usuário" autofocus required>
+                        <label for="email">E-mail</label>
+                        <input type="text" name="user" class="form-control" placeholder="Digite o E-mail" autofocus required>
                     </div>
 
                     <div class="form-label-group">
