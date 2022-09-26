@@ -5,7 +5,7 @@ if(isset($_POST['cadastrar'])){
     $user = htmlspecialchars($_POST['user']);
     $pass = htmlspecialchars($_POST['pass']);
 
-    //Criptografando a senha digitada antes de enviar para o banco de dados
+    //Criptografando a senha digitada antes de enviar para o banco de dados (https://phppasswordhash.com/)
     $hash_password = password_hash($pass, PASSWORD_DEFAULT);
 
     $cadastrar = $acoes->cadastrar_user($user, $hash_password);

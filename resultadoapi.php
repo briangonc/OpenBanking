@@ -42,6 +42,7 @@ if (isset($_GET['status'])) {
     <title> Dados OpenBanking </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <!-- bootstrap5 dataTables css cdn -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css" />
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.bootstrap5.min.css" />
@@ -57,11 +58,13 @@ if (isset($_GET['status'])) {
                     <h5 class="card-title">
                         Cadastros Open Banking
                     </h5>
+
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Cadastrar usuario
                     </button>
                 </div>
+
                 <div class="card-body">
                     <table id="teste" class="table table-striped nowrap" style="width:100%">
                         <thead>
@@ -72,6 +75,7 @@ if (isset($_GET['status'])) {
                                 <th>Logo</th>
                             </tr>
                         </thead>
+
                         <tbody>
                             <!-- Foreach utilizado para percorrer cada item da API , e na sequência acessar os itens necessários -->
                             <?php foreach ($response as $test) :
@@ -95,7 +99,8 @@ if (isset($_GET['status'])) {
         </div>
     </div>
 
-    <!-- Modal -->
+
+    <!-- Modal para cadastro de novos usuários -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -103,11 +108,12 @@ if (isset($_GET['status'])) {
                     <h5 class="modal-title" id="exampleModalLabel">Cadastrar usuario</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                
                 <div class="modal-body">
                     <form class="form-signin" action="" method="post">
 
                         <div class="form-label-group">
-                            <label for="email">Email</label>
+                            <label for="email">Usuário</label>
                             <input type="text" name="user" class="form-control" placeholder="Digite o usuário" autofocus required>
                         </div>
 

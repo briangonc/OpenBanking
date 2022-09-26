@@ -1,3 +1,5 @@
+<!-- Configurações para emissão de erros. -->
+
 <?php
 session_start();
 

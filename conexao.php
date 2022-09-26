@@ -1,3 +1,6 @@
+
+<!-- Aqui eu fiz a configuração de comunicação com o banco de dados MySQL (xampp) -->
+
 <?php      
 
     $db_type = "mysql";
