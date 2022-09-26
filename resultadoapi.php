@@ -108,7 +108,7 @@ if (isset($_GET['status'])) {
                     <h5 class="modal-title" id="exampleModalLabel">Cadastrar usuario</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                
+
                 <div class="modal-body">
                     <form class="form-signin" action="" method="post">
 
@@ -139,7 +139,6 @@ if (isset($_GET['status'])) {
 </body>
 
 <!-- bootstrap5 dataTables js cdn -->
-
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
